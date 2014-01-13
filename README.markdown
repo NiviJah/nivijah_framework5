@@ -1,24 +1,16 @@
 A Brief Introduction
 ====================
-nivijah Framework is an extremely versatile HTML5 WordPress framework based on ZURB's [Foundation](http://foundation.zurb.com), a powerful tool for building prototypes on any kind of devices. nivijah follows [HTML5 Boilerplate](http://html5boilerplate.com) standard and is [hNews microformat](https://www.readability.com/publishers/guidelines) ready. It is optimized for Search Engine while at the same time improves readability.
+NiviJah Framework5 is a starter Wordpress theme based on Themefortress's amazing theme "Reverie".
+I've added for start RTL support and "boxed" view that uses an alternative header and footer.
 
-It is extremely easy to create your blog, CMS, brochure and any other kind of sites with nivijah. You can see some [samples](http://foundation.zurb.com/templates.php) on ZURB and how they make these prototypes. Did I just mention nivijah works well with [bbPress 2.0](http://bbpress.org/) and [BuddyPress 1.5](http://buddypress.org/)?
+Feel free to hack, slash, change or murder the theme as you see fit.
 
-###Important###
-Please note nivijah 4 was built from groud up (almost), as well as Foundation, thus there is no easy way to upgrade from prior version. Read more about the release on [ThemeFortress](http://themefortress.com/nivijah-framework-4/). And start with this version, nivijah will only support the latest and second latest WordPress. Why, [Yoast](http://yoast.com/why-we-dont-support-old-wordpress-versions/) explains it well.
-
-Still, if you want to get nivijah 3 (based on Foundation 3.2), you can find it at our [last nivijah 3 commit](https://github.com/milohuang/nivijah/tree/2ef429776d4d3e27906e44d7d0a43cf912078e36).
-
-###jQuery###
-WordPress 3.6 has a built in jQuery of 1.10 which is good for nivijah.
-
-###Child Theme###
-nivijah 4 supports child theme but need a simple step to activate. Check out the [instruction](http://themefortress.com/child-theme-nivijah-4/) on the blog.
+More changes to come, like off-canvas menu and theme options. 
 
 
-###Links of nivijah###
-* Homepage:      http://themefortress.com/nivijah
-* Introduction:  http://themefortress.com/nivijah-versatile-html5-wordpress-framework/
+###Links of Reverie###
+* Homepage:      http://themefortress.com/Reverie
+* Introduction:  http://themefortress.com/Reverie-versatile-html5-wordpress-framework/
 * ThemeFortress: http://themefortress.com
 * Support Forum: http://themefortress.com/forum
 
@@ -27,17 +19,13 @@ nivijah 4 supports child theme but need a simple step to activate. Check out the
 * Documentation: http://foundation.zurb.com/docs  
 * GitHub:        https://github.com/zurb/foundation
 
-###Derivatives of nivijah###
-There are contributors, developers who loves nivijah and created other versions. If you are one of them, send me a link.
-* [Leonard Bogdonoff](https://github.com/lkbgift/nivijah/): ZURB introduced a [standalone](http://foundation.zurb.com/docs/sass.html) solution of Foundation 4 Sass (under Using Sass Standalone heading). Leonard has a beautiful solution.
-
 
 
 What are the Features?
 ======================
-nivijah Framework inherits all the cool features from Foundation, and packs with several other interesting features to optimize the experience for WordPress and HTML5. Including customized output for WordPress menus and caption. You can view the features list by scrolling down.
+NiviJah Framework inherits all the cool features from Foundation, and packs with several other interesting features to optimize the experience for WordPress and HTML5. Including customized output for WordPress menus and caption. You can view the features list by scrolling down.
 
-nivijah utilizes Foundation's grid to implement layouts. It is quite easy to start building your own layouts (like this page). You can read Foundation's [documentation](http://foundation.zurb.com/docs/) for how to implement these cool features.
+NiviJah utilizes Foundation's grid to implement layouts. It is quite easy to start building your own layouts (like this page). You can read Foundation's [documentation](http://foundation.zurb.com/docs/) for how to implement these cool features.
 
 ###Basic Features###
 * Sass compatible.
@@ -60,16 +48,13 @@ nivijah utilizes Foundation's grid to implement layouts. It is quite easy to sta
 * bbPress.php included, compatible with bbPress 2.
 * Several custom page templates are included in the package.
 
-###PressTrends###
-Thanks to the generosity of [George](https://twitter.com/prstrends) from [PressTrends](http://www.presstrends.io/), nivijah Framework is using the service to track the usage of the framework and help us to improve it. Of course, you can always disable it by removing it from functions.php.
-
 What about Mobile Devices?
 ==========================
-Positive. With the power of Foundation, nivijah uses media query to adjust for all kinds of devices, including phones, tablets and computers. nivijah is also optimized for iPhone and iPad. Icons and loading images will be display when you save your website as a Home Screen app (example in the above image). Add this page to Home Screen on any iOS devices to see what I mean.
+Positive. With the power of Foundation, NiviJah uses media query to adjust for all kinds of devices, including phones, tablets and computers. NiviJah is also optimized for iPhone and iPad. Icons and loading images will be display when you save your website as a Home Screen app (example in the above image). Add this page to Home Screen on any iOS devices to see what I mean.
 
 ThemeFortress
 =============
-nivijah is a WordPress framework created by [ThemeFortress](http://themefortress.com), a WordPress blog that focus on theme design and plugins.
+Reverie is a WordPress framework created by [ThemeFortress](http://themefortress.com), a WordPress blog that focus on theme design and plugins.
 
-Please note nivijah Framework is under MIT License, the same as Foundation.
+Please note NiviJah Framework is under MIT License, the same as Foundation and Reverie.
 
