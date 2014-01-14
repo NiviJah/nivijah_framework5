@@ -1,4 +1,4 @@
-<?php get_header('2'); ?>
+<?php get_header(); ?>
 
 <!-- Row for main content area -->
 	<div class="small-12 large-8 columns" id="content" role="main">
@@ -36,4 +36,4 @@
 	</div>
 	<?php get_sidebar(); ?>
 		
-<?php get_footer('2'); ?>
+<?php get_footer(); ?>

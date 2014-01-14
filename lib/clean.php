@@ -1,7 +1,7 @@
 <?php
 /*********************
 Start all the functions
-at once for nivijah.
+at once for Reverie.
 *********************/
 
 // start all the functions

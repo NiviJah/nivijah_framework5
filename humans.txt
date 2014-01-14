@@ -1,11 +1,11 @@
-/* nivijah is a versatile HTML5 responsive WordPress framework based on ZURB's Foundation. */
+/* Reverie is a versatile HTML5 responsive WordPress framework based on ZURB's Foundation. */
 
 /* TEAM */
 
 Zhen Huang
 http://themefortress.com
 Twitter: @themefortress
-nivijah Framework: http://themefortress.com/nivijah/
+Reverie Framework: http://themefortress.com/nivijah/
 
 /* THANKS */							
 

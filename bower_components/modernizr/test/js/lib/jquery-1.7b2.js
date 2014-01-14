@@ -59,7 +59,7 @@ var jQuery = function( selector, context ) {
 	rvalidtokens = /"[^"\\\n\r]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?/g,
 	rvalidbraces = /(?:^|:|,)(?:\s*\[)+/g,
 
-	// Usernivijah RegExp
+	// Useragent RegExp
 	rwebkit = /(webkit)[ \/]([\w.]+)/,
 	ropera = /(opera)(?:.*version)?[ \/]([\w.]+)/,
 	rmsie = /(msie) ([\w.]+)/,
@@ -74,8 +74,8 @@ var jQuery = function( selector, context ) {
 		return ( letter + "" ).toUpperCase();
 	},
 
-	// Keep a Usernivijah string for use with jQuery.browser
-	usernivijah = navigator.usernivijah,
+	// Keep a UserAgent string for use with jQuery.browser
+	userAgent = navigator.userAgent,
 
 	// For matching the engine and version of the browser
 	browserMatch,
@@ -900,7 +900,7 @@ jQuery.each("Boolean Number String Function Array Date RegExp Object".split(" ")
 	class2type[ "[object " + name + "]" ] = name.toLowerCase();
 });
 
-browserMatch = jQuery.uaMatch( usernivijah );
+browserMatch = jQuery.uaMatch( userAgent );
 if ( browserMatch.browser ) {
 	jQuery.browser[ browserMatch.browser ] = true;
 	jQuery.browser.version = browserMatch.version;

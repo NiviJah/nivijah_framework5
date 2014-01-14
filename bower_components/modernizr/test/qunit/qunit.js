@@ -680,7 +680,7 @@ extend( QUnit, {
 				"<h1 id='qunit-header'>" + escapeInnerText( document.title ) + "</h1>" +
 				"<h2 id='qunit-banner'></h2>" +
 				"<div id='qunit-testrunner-toolbar'></div>" +
-				"<h2 id='qunit-usernivijah'></h2>" +
+				"<h2 id='qunit-userAgent'></h2>" +
 				"<ol id='qunit-tests'></ol>";
 		}
 
@@ -916,7 +916,7 @@ QUnit.load = function() {
 	runLoggingCallbacks( "begin", QUnit, {} );
 
 	// Initialize the config, saving the execution queue
-	var banner, filter, i, label, len, main, ol, toolbar, usernivijah, val, urlConfigCheckboxes,
+	var banner, filter, i, label, len, main, ol, toolbar, userAgent, val, urlConfigCheckboxes,
 		urlConfigHtml = "",
 		oldconfig = extend( {}, config );
 
@@ -940,10 +940,10 @@ QUnit.load = function() {
 		urlConfigHtml += "<input id='qunit-urlconfig-" + val.id + "' name='" + val.id + "' type='checkbox'" + ( config[ val.id ] ? " checked='checked'" : "" ) + " title='" + val.tooltip + "'><label for='qunit-urlconfig-" + val.id + "' title='" + val.tooltip + "'>" + val.label + "</label>";
 	}
 
-	// `usernivijah` initialized at top of scope
-	usernivijah = id( "qunit-usernivijah" );
-	if ( usernivijah ) {
-		usernivijah.innerHTML = navigator.usernivijah;
+	// `userAgent` initialized at top of scope
+	userAgent = id( "qunit-userAgent" );
+	if ( userAgent ) {
+		userAgent.innerHTML = navigator.userAgent;
 	}
 
 	// `banner` initialized at top of scope

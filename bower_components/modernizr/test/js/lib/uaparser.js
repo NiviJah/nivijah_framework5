@@ -13,14 +13,14 @@
       var result = parsers[i](ua);
       if (result) { return result; }
     }
-    return new Usernivijah();
+    return new UserAgent();
   }
 
-  function Usernivijah(family) {
+  function UserAgent(family) {
     this.family = family || 'Other';
   }
 
-  Usernivijah.prototype.toVersionString = function() {
+  UserAgent.prototype.toVersionString = function() {
     var output = '';
     if (this.major != null) {
       output += this.major;
@@ -34,7 +34,7 @@
     return output;
   };
 
-  Usernivijah.prototype.toString = function() {
+  UserAgent.prototype.toString = function() {
     var suffix = this.toVersionString();
     if (suffix) { suffix = ' ' + suffix; }
     return this.family + suffix;
@@ -198,7 +198,7 @@
 
       var familly = famRep ? famRep.replace('$1', m[1]) : m[1];
 
-      var obj = new Usernivijah(familly);
+      var obj = new UserAgent(familly);
       obj.major = parseInt(v1Rep ? v1Rep : m[2]);
       obj.minor = m[3] ? parseInt(m[3]) : null;
       obj.patch = m[4] ? parseInt(m[4]) : null;

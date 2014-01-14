@@ -2,8 +2,8 @@
 /**
  * The template for displaying a "No posts found" message.
  *
- * @subpackage nivijah
- * @since nivijah 4.0
+ * @subpackage Reverie
+ * @since Reverie 4.0
  */
 ?>
 

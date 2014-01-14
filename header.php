@@ -55,7 +55,7 @@
 	            'theme_location' => 'primary',
 	            'container' => false,
 	            'depth' => 0,
-	            'items_wrap' => '<ul class="right">%3$s</ul>',
+	            'items_wrap' => '<ul class="left">%3$s</ul>',
 	            'fallback_cb' => 'nivijah_menu_fallback', // workaround to show a message to set up a menu
 	            'walker' => new nivijah_walker( array(
 	                'in_top_bar' => true,

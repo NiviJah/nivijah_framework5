@@ -58,14 +58,14 @@ window.caniusecb = function(scriptdata) {
   var testdata     = scriptdata.data,
 
       // parse the current UA with uaparser
-      ua           = uaparse(navigator.usernivijah),
+      ua           = uaparse(navigator.userAgent),
 
       // match the UA from uaparser into the browser used by caniuse
-      browserKey   = JSONSelect.match('.nivijahs .browser', scriptdata).indexOf(ua.family),
-      currBrowser  = Object.keys(scriptdata.nivijahs)[browserKey];
+      browserKey   = JSONSelect.match('.agents .browser', scriptdata).indexOf(ua.family),
+      currBrowser  = Object.keys(scriptdata.agents)[browserKey];
 
   // So Phantom doesn't kill the caniuse.com matching exit out as it's useless anyway within PhantomJS
-  if(navigator.usernivijah.indexOf("PhantomJS") != -1) {
+  if(navigator.userAgent.indexOf("PhantomJS") != -1) {
     return;
   }
 

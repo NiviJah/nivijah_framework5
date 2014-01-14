@@ -15,7 +15,7 @@
 	</div>
 	<div class="row love-nivijah">
 		<div class="large-12 columns">
-			<p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. <?php _e('Made with Love in','nivijah'); ?> <a href="http://themefortress.com/nivijah/" rel="nofollow" title="nivijah Framework">nivijah</a>.</p>
+			<p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. <?php _e('Made with Love in','nivijah'); ?> <a href="http://themefortress.com/nivijah/" rel="nofollow" title="Reverie Framework">Reverie</a>.</p>
 		</div>
 	</div>
 </footer>

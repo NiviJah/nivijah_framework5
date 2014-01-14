@@ -17,7 +17,7 @@ require_once('lib/clean.php'); // do all the cleaning and enqueue here
 
 /*
 2. lib/enqueue-style.php
-    - enqueue Foundation and nivijah CSS
+    - enqueue Foundation and Reverie CSS
 */
 require_once('lib/enqueue-style.php');
 
@@ -33,9 +33,9 @@ require_once('lib/foundation.php'); // load Foundation specific functions like t
 require_once('lib/nav.php'); // filter default wordpress menu classes and clean wp_nav_menu markup
 /*
 5. lib/presstrends.php
-    - add PressTrends, tracks how many people are using nivijah
+    - add PressTrends, tracks how many people are using Reverie
 */
-require_once('lib/presstrends.php'); // load PressTrends to track the usage of nivijah across the web, comment this line if you don't want to be tracked
+require_once('lib/presstrends.php'); // load PressTrends to track the usage of Reverie across the web, comment this line if you don't want to be tracked
 
 /**********************
 Add theme supports
@@ -76,7 +76,7 @@ function nivijah_theme_support() {
         )
     );
 }
-add_action('after_setup_theme', 'nivijah_theme_support'); /* end nivijah theme support */
+add_action('after_setup_theme', 'nivijah_theme_support'); /* end Reverie theme support */
 
 // create widget areas: sidebar, footer
 $sidebars = array('Sidebar');

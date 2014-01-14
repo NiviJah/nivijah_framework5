@@ -172,7 +172,7 @@ function FastClick(layer) {
  *
  * @type boolean
  */
-FastClick.prototype.deviceIsAndroid = navigator.usernivijah.indexOf('Android') > 0;
+FastClick.prototype.deviceIsAndroid = navigator.userAgent.indexOf('Android') > 0;
 
 
 /**
@@ -180,7 +180,7 @@ FastClick.prototype.deviceIsAndroid = navigator.usernivijah.indexOf('Android') >
  *
  * @type boolean
  */
-FastClick.prototype.deviceIsIOS = /iP(ad|hone|od)/.test(navigator.usernivijah);
+FastClick.prototype.deviceIsIOS = /iP(ad|hone|od)/.test(navigator.userAgent);
 
 
 /**
@@ -188,7 +188,7 @@ FastClick.prototype.deviceIsIOS = /iP(ad|hone|od)/.test(navigator.usernivijah);
  *
  * @type boolean
  */
-FastClick.prototype.deviceIsIOS4 = FastClick.prototype.deviceIsIOS && (/OS 4_\d(_\d)?/).test(navigator.usernivijah);
+FastClick.prototype.deviceIsIOS4 = FastClick.prototype.deviceIsIOS && (/OS 4_\d(_\d)?/).test(navigator.userAgent);
 
 
 /**
@@ -196,7 +196,7 @@ FastClick.prototype.deviceIsIOS4 = FastClick.prototype.deviceIsIOS && (/OS 4_\d(
  *
  * @type boolean
  */
-FastClick.prototype.deviceIsIOSWithBadTarget = FastClick.prototype.deviceIsIOS && (/OS ([6-9]|\d{2})_\d/).test(navigator.usernivijah);
+FastClick.prototype.deviceIsIOSWithBadTarget = FastClick.prototype.deviceIsIOS && (/OS ([6-9]|\d{2})_\d/).test(navigator.userAgent);
 
 
 /**
@@ -711,7 +711,7 @@ FastClick.notNeeded = function(layer) {
     return true;
   }
 
-  if ((/Chrome\/[0-9]+/).test(navigator.usernivijah)) {
+  if ((/Chrome\/[0-9]+/).test(navigator.userAgent)) {
 
     // Chrome on Android with user-scalable="no" doesn't need FastClick (issue #89)
     if (FastClick.prototype.deviceIsAndroid) {
