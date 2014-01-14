@@ -149,8 +149,10 @@ $content-padding: rem-calc(50);
 }
 
 .post header,
-.page header {
-	margin-bottom: rem-calc(20);
+.page header,
+.single header {
+	margin-bottom: rem-calc(5);
+	padding-bottom: 0px;
 }
 
 .entry-tags {

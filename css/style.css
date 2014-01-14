@@ -318,8 +318,10 @@ time a:focus {
 }
 
 .post header,
-.page header {
-  margin-bottom: 1.25rem;
+.page header,
+.single header {
+  margin-bottom: 0.3125rem;
+  padding-bottom: 0px;
 }
 
 .entry-tags {
