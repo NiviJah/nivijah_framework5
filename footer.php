@@ -1,3 +1,5 @@
+	  </div> <!--off-canvas-wrap inner-wrap -->
+</div> <!-- off-canvas-wrap -->
 	</div><!-- Row End -->
 </div><!-- Container End -->
 

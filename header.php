@@ -41,7 +41,7 @@
 
 <header class="contain-to-grid">
 	<!-- Starting the Top-Bar -->
-	<nav class="top-bar" data-topbar>
+	<nav class="top-bar hide-for-small-only" data-topbar>
 	    <ul class="title-area">
 	        <li class="name">
 	        	<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
@@ -64,23 +64,7 @@
 	            ) ),
 	        ) );
 	    ?>
-	    <?php
-	    	// Uncomment the following to enable the right menu (additional menu)
-			
-	    	/*
-	        wp_nav_menu( array(
-	            'theme_location' => 'additional',
-	            'container' => false,
-	            'depth' => 0,
-	            'items_wrap' => '<ul class="right">%3$s</ul>',
-	            'walker' => new nivijah_walker( array(
-	                'in_top_bar' => true,
-	                'item_type' => 'li',
-	                'menu_type' => 'main-menu'
-	            ) ),
-	        ) );
-	        */
-	    ?>
+
 	    </section>
 	</nav>
 	<!-- End of Top-Bar -->
@@ -89,3 +73,41 @@
 <!-- Start the main container -->
 <div class="container" role="document">
 	<div class="row">
+
+<div class="off-canvas-wrap visible-small">
+  <div class="inner-wrap">
+    <nav class="tab-bar show-for-small-only">
+      
+      <section class="right-small">
+        <a class="right-off-canvas-toggle menu-icon" ><span></span></a>
+      </section>
+    </nav>
+
+    <aside class="right-off-canvas-menu">
+
+	    <?php
+	    	// Uncomment the following to enable the right menu (Mobile menu)
+			
+	    	
+	        wp_nav_menu( array(
+	            'theme_location' => 'mobile',
+	            'container' => false,
+	            'depth' => 0,
+	            'items_wrap' => '<ul class="off-canvas-list">%3$s</ul>',
+	            'walker' => new nivijah_walker( array(
+	                'in_top_bar' => true,
+	                'item_type' => 'li',
+	                'menu_type' => 'main-menu'
+	            ) ),
+	        ) );
+	        
+	    ?>
+
+    </aside>
+
+    <section class="main-section">
+      <!-- content goes here -->
+    </section>
+
+  <a class="exit-off-canvas"></a>
+

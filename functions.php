@@ -61,7 +61,7 @@ function nivijah_theme_support() {
     add_theme_support('menus');
     register_nav_menus(array(
         'primary' => __('Primary Navigation', 'nivijah'),
-        'additional' => __('Additional Navigation', 'nivijah'),
+        'mobile' => __('Mobile Navigation', 'nivijah'),
         'utility' => __('Utility Navigation', 'nivijah')
     ));
 
