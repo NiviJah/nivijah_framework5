@@ -16,8 +16,10 @@
 		</div>
 	</div>
 	<div class="row love-nivijah">
-		<div class="large-12 columns">
-			<p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. <?php _e('Made with Love in','nivijah'); ?> <a href="http://themefortress.com/nivijah/" rel="nofollow" title="Reverie Framework">Reverie</a>.</p>
+		<div class="large-12 columns centered-text">
+		<h3>We Love To Give.</h3>
+		<h3 class="subheader">Please, take the time to give back to someone else.</h3>
+
 		</div>
 	</div>
 </footer>
