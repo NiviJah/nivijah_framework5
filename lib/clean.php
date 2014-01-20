@@ -121,6 +121,7 @@ function nivijah_scripts_and_styles() {
     
     // adding Foundation scripts file in the footer
     wp_register_script( 'nivijah-js', get_template_directory_uri() . '/js/foundation.min.js', array( 'jquery' ), '', true );
+    wp_register_script( 'scrolldjs', get_template_directory_uri() . '/js/scrolld.min.js', array( 'jquery' ), '', true );
     
     global $is_IE;
     if ($is_IE) {
@@ -139,6 +140,7 @@ function nivijah_scripts_and_styles() {
     wp_enqueue_script( 'jquery' );
 	
     wp_enqueue_script( 'nivijah-js' );
+    wp_enqueue_script( 'scrolldjs' );
     wp_enqueue_script( 'html5shiv' );
 
   }

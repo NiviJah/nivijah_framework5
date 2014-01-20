@@ -31,6 +31,8 @@
 		$(document).foundation();
 	})(jQuery);
 </script>
-	
+<script>
+	jQuery("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();jQuery(this).scrolld();});
+</script>
 </body>
 </html>
