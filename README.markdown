@@ -7,6 +7,11 @@ Feel free to hack, slash, change or murder the theme as you see fit.
 
 More changes to come, like off-canvas menu and theme options. 
 
+### 01/20/14 ###
+** ADDED - Off Canvas menu for mobile devices
+** ADDED - jQuery parallax scrolling plugin "scrolldjs"
+
+
 
 ###Links of Reverie###
 * Homepage:      http://themefortress.com/Reverie
@@ -18,6 +23,9 @@ More changes to come, like off-canvas menu and theme options.
 * Homepage:      http://foundation.zurb.com  
 * Documentation: http://foundation.zurb.com/docs  
 * GitHub:        https://github.com/zurb/foundation
+
+###scrolldjs###
+http://scrolldjs.com/
 
 
 
