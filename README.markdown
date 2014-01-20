@@ -8,8 +8,8 @@ Feel free to hack, slash, change or murder the theme as you see fit.
 More changes to come, like off-canvas menu and theme options. 
 
 ### 01/20/14 ###
-** ADDED - Off Canvas menu for mobile devices
-** ADDED - jQuery parallax scrolling plugin "scrolldjs"
+* ADDED - Off Canvas menu for mobile devices
+* ADDED - jQuery parallax scrolling plugin "scrolldjs"
 
 
 
