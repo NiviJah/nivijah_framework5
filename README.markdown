@@ -24,7 +24,7 @@ More changes to come, like off-canvas menu and theme options.
 * Documentation: http://foundation.zurb.com/docs  
 * GitHub:        https://github.com/zurb/foundation
 
-###scrolldjs###
+###ScrolldJS Docs And Demo###
 http://scrolldjs.com/
 
 
